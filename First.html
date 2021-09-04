@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<nav>
-	</nav>
-	<meta charset = "UTF-8">
-	<meta name = "description" content = "This is my first website">   <!--this helps search engines identify your webpage during search-->
-	<meta name="author" content="Ritodeep Sikdar">
-	<meta name="keywords" content="HTML, First Webpage, learner">   <!--this helps search engines identify your webpage during search-->
-	<meta name="viewport" content="width=device-width, intitial-scale=1.0">   <!--this helps to format the webpage in different devices like mobile etc...-->
-	<title>Ritodeep's Website</title>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Dancing+Script:wght@700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<nav>
+		</nav>
+		<meta charset = "UTF-8">
+		<meta name = "description" content = "This is my first website">   <!--this helps search engines identify your webpage during search-->
+		<meta name="author" content="Ritodeep Sikdar">
+		<meta name="keywords" content="HTML, First Webpage, learner">   <!--this helps search engines identify your webpage during search-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">   <!--this helps to format the webpage in different devices like mobile etc...-->
+		<title>Ritodeep Sikdar</title>
 
-</head>
-<body style="background-color:lightblue">
-	<h2 align="center" ><p style="color:brown"><a href="http://www.jaduniv.edu.in" target="_blank"><img align="left" src="file:/C:/Ritodeep/HTML/img1.png" width="80" alt="logo"></a>Ritodeep's Website<a href="https://www.onlinedegree.iitm.ac.in/" target="_blank"><img align="right" src="https://onlinedegree.iitm.ac.in/assets/img/logo.png" width="80" alt="logo"></a></p></h2>
-	<hr/ color="black">
-	<br/>
-	<!-- Comments-->
-	<header>
-		<p align="left"; style="color: red"><b><i>Hello World!!!</i></b> I am Ritodeep Sikdar from West Bengal,India. I am 19 years old and I love reading, eating and listening to music.</p> 
-		<p>I am pursuing engineering and my areas of interest include Computing, Robotics and Aerospace designs.I am also interested in Biological sciences. I am always open to learning something new and solving puzzles.</p> 
-	</header>
-	<main>
-		<h3><u>More about myself:</u></h3>
-		<article>
-			<section>
-				<p>I am currently studying at <a href="http://www.jaduniv.edu.in" target="_blank">Jadavpur University</a>.
-				I am at my second year of undergraduate degree pursuing <i><b>Bachelor of Computer Science and Engineering.</b></i></p>
-			</section>
-			
-			<section>
-				<p>Additionally I am pursuing an online B.Sc. degree on Programming and Data Science from <a href="https://www.onlinedegree.iitm.ac.in/" target="_blank">IIT Madras</a>.</p>
-			</section>
-		</article>
-		<article>
-			<p>I know the fundamentals of the following languages:</p>
-			<ul>
-			<li><a href="https://www.java.com/" target="_blank"><b>Java</b></a></li>
-			<li><b>C</b></li>
-			<li><a href="https://www.python.org/" target="_blank"><b>Python</b></a></li>
-			<li><b>HTML</b></li>
-			</ul>
-		</article>
-		<form>
-			<div>Did you like this webpage created solely with HTML?</div>
-			<input name="btn" type="radio"/><span>Yes</span>
-			<div><input name="btn" type="radio"/><span>No</span></div>
-			<input value="Give your feedback here" type="textarea"/>
-			<input type="submit">
-		</form>
-		
-	</main>
-</body>
+	</head>
+	<body>
+		<h2 align="center" id="title"><p><a href="http://www.jaduniv.edu.in" target="_blank"><img align="left" src="file:/C:/Ritodeep/HTML/img1.png" width="85" alt="logo"></a>Ritodeep's Website<a href="https://www.onlinedegree.iitm.ac.in/" target="_blank"><img align="right" src="https://onlinedegree.iitm.ac.in/assets/img/logo.png" width="80" alt="logo"></a></p></h2>
+		<hr/ color="black">
+		<br/>
+		<!-- Comments-->
+		<header>
+			<p align="left"; style="color: royalblue;"><b><i>Hello World!!!</i></b> I am Ritodeep Sikdar from West Bengal,India. I am 19 years old and I love reading, eating, listening to music and travelling.</p> 
+			<p>I am pursuing engineering and my areas of interest include Computing, Robotics, Electronics and Aerospace designs.I am also interested in Biological sciences. I am always open to learning something new and solving puzzles.</p> 
+		</header>
+		<main>
+			<h3 class="more-abt-myself"><u>More about myself</u></h3>
+			<article>
+				<section>
+					<p>I am currently studying at <a href="http://www.jaduniv.edu.in" target="_blank">Jadavpur University</a>.
+					I am at my second year of undergraduate degree pursuing <i><b>Bachelor of Computer Science and Engineering(2020-24).</b></i></p>
+				</section>
+				
+				<section>
+					<p>Additionally I am pursuing an online B.Sc. degree on Programming and Data Science from <a href="https://www.onlinedegree.iitm.ac.in/" target="_blank">IIT Madras</a>.</p>
+				</section>
+				<section>
+					I plan to continue my studies and get into a masters programme, and, in future and possibly do research in the field of Computing.
+				</section>
+			</article>
+			<article>
+				<p>I know the fundamentals of the following languages:</p>
+				<ul>
+				<li><a href="https://www.java.com/" target="_blank"><b>Java</b></a></li>
+				<li><b>C</b></li>
+				<li><a href="https://www.python.org/" target="_blank"><b>Python</b></a></li>
+				<li><b>HTML</b></li>
+				<li><b>CSS</b></li>
+				</ul>
+			</article>
+			<form>
+				<h3 class="feedback"><u>Suggestions</u></h3>
+				<div>Did you like this webpage created with HTML and CSS?</div>
+				<input name="btn" type="radio"/><span>Yes</span>
+				<div><input class="form-input" name="btn" type="radio"/><span>No</span></div>
+				<textarea rows="3" cols="20">Give your feedback here.</textarea>
+				<input type="submit" class="submit" name="Submit">
+			</form>	
+			<form>
+				<h3 class="contact-me"><u>Connect with Me</u></h3>
+				<div>
+					<label for="name">Name:</label>
+					<input class="form-input" type="text" id="name" name="">
+				</div>
+				<br/>
+				<div>
+					<span>Email: <input type="text" name=""></span>
+				</div>
+				<br>
+				<div>
+					<input type="submit" class="submit" name="Submit" align="left">
+				</div>
+				<div id="background">
+
+				</div>	
+			</form>
+			<p id = "ending" align="center">© copyright 2021</p>
+
+		</main>
+	</body>
 </html>
