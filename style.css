@@ -1,0 +1,78 @@
+body{
+	background:linear-gradient(to bottom, rgba(156, 209, 219,0.8), rgba(156, 209, 219, 0.3));
+	font-size: 1.15em;
+	font-family: "Ubuntu", sans-serif;	
+}
+
+#title{
+	background: #ccab93;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2em;
+	color: blue;
+}
+
+.more-abt-myself{
+	color: #2a8edb;
+}
+
+.contact-me{
+	color: #2a8edb;
+}
+
+.feedback{
+	color: #2a8edb;
+}
+
+h3{
+	font-family: 'Cairo', sans-serif;
+	color: #2a8edb;
+}
+
+h3:hover{
+	color: #1c68d9;
+}
+
+ul > li{
+	color: darkcyan;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	color: darkblue;
+	text-decoration: underline;
+
+}
+
+a:visited{
+	color: darkred;
+}
+
+.submit{
+	color: red;
+	background-color: peachpuff;
+}
+.submit:hover{
+	width: 65px;
+  	height: 25px;
+  	font-weight: 800;
+  	text-align: center;
+  	color: forestgreen;
+	background-color: yellowgreen;
+}
+
+#ending{
+	font-size: 0.75em;
+}
+
+/*#background{
+	height: 200px;
+	width: 40%;
+	background : linear-gradient(to bottom right, #fa8a48, #ffdfcc);
+	background : radial-gradient(circle, red 30%, blue 40%, green 30%);
+	border: 10px double red ;
+	margin: 10px 20px;
+	padding: 10px 20px 30px 40px;
+	padding: 20px;
+}
+*/
